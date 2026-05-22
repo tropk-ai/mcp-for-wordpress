@@ -1,0 +1,326 @@
+# Spanish (Spain) translation of MCP for WP by Tropk.ai
+# Copyright (C) 2026 Tropk.ai
+# This file is distributed under the GPL-3.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: MCP for WP, Elementor and more by Tropk.ai 0.5.0\n"
+"POT-Creation-Date: 2026-05-22 12:00+0000\n"
+"PO-Revision-Date: 2026-05-22 12:00+0000\n"
+"Last-Translator: Tropk.ai\n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: mcp-for-wordpress\n"
+
+msgid "MCP for WP, Elementor and more by Tropk.ai"
+msgstr "MCP para WordPress, Elementor y más — por Tropk.ai"
+
+msgid "by %s — connect this site to Claude, ChatGPT, Cursor and any MCP-compatible AI assistant."
+msgstr "por %s — conecta este sitio a Claude, ChatGPT, Cursor y cualquier asistente de IA compatible con MCP."
+
+msgid "Connect this site to your favorite AI assistant"
+msgstr "Conecta este sitio a tu asistente de IA favorito"
+
+msgid "Wordpress MCP"
+msgstr "MCP by Tropk.ai"
+
+msgid "MCP by Tropk.ai"
+msgstr "MCP by Tropk.ai"
+
+msgid "Choose assistant"
+msgstr "Elegir asistente"
+
+msgid "Connect"
+msgstr "Conectar"
+
+msgid "Test"
+msgstr "Probar"
+
+msgid "Pick your AI assistant"
+msgstr "Elige tu asistente de IA"
+
+msgid "Wordpress MCP exposes 450+ tools — pages, posts, Elementor widgets, Rank Math SEO, ACF, WooCommerce — to any MCP-compatible AI assistant. Pick where you want to connect from."
+msgstr "MCP para WordPress expone 450+ herramientas — páginas, entradas, widgets de Elementor, Rank Math SEO, ACF, WooCommerce — a cualquier asistente de IA compatible con MCP. Elige desde dónde quieres conectarte."
+
+msgid "Connect to Claude"
+msgstr "Conectar a Claude"
+
+msgid "Connect to ChatGPT"
+msgstr "Conectar a ChatGPT"
+
+msgid "Connect →"
+msgstr "Conectar →"
+
+msgid "Step 2 · Connect %s"
+msgstr "Paso 2 · Conectar %s"
+
+msgid "%s uses OAuth 2.1 with automatic dynamic client registration. You only need the URL below — no headers, no Application Passwords, no API keys."
+msgstr "%s utiliza OAuth 2.1 con registro dinámico automático de cliente. Solo necesitas la URL de abajo — sin cabeceras, sin contraseñas de aplicación, sin claves de API."
+
+msgid "MCP Server URL"
+msgstr "URL del servidor MCP"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "What happens behind the scenes (optional reading)"
+msgstr "Qué pasa entre bastidores (lectura opcional)"
+
+msgid "← Back"
+msgstr "← Volver"
+
+msgid "Open %s settings ↗"
+msgstr "Abrir ajustes de %s ↗"
+
+msgid "I've connected — test the connection →"
+msgstr "Ya conecté — probar la conexión →"
+
+msgid "Open <strong>Claude.ai</strong> → <strong>Settings → Connectors → Add custom connector</strong>."
+msgstr "Abre <strong>Claude.ai</strong> → <strong>Ajustes → Conectores → Añadir conector personalizado</strong>."
+
+msgid "Open <strong>ChatGPT</strong> → <strong>Settings → Connectors → Add custom connector</strong>."
+msgstr "Abre <strong>ChatGPT</strong> → <strong>Ajustes → Conectores → Añadir conector personalizado</strong>."
+
+msgid "Give it any name (e.g. <code>%s</code>)."
+msgstr "Dale el nombre que quieras (p. ej. <code>%s</code>)."
+
+msgid "Paste the MCP URL below into the <strong>Server URL</strong> field."
+msgstr "Pega la URL MCP de abajo en el campo <strong>URL del servidor</strong>."
+
+msgid "Click <strong>Link</strong>. A WordPress login window will open — sign in with the account you want the AI to act as, then click <strong>Allow</strong> on the consent screen."
+msgstr "Haz clic en <strong>Vincular</strong>. Se abrirá una ventana de inicio de sesión de WordPress — entra con la cuenta que la IA debe representar y haz clic en <strong>Permitir</strong> en la pantalla de consentimiento."
+
+msgid "Step 3 · Connected"
+msgstr "Paso 3 · Conectado"
+
+msgid "Step 3 · Not connected yet"
+msgstr "Paso 3 · Todavía no conectado"
+
+msgid "The MCP server is live and currently exposes %d tools. Go back to your AI assistant — it should list every tool under this connector now."
+msgstr "El servidor MCP está activo y expone %d herramientas. Vuelve a tu asistente de IA — debería listar todas las herramientas bajo este conector."
+
+msgid "We couldn't verify the connection. Check the items below — if everything is green and your AI client still doesn't see the connector, click \"Test again\"."
+msgstr "No pudimos verificar la conexión. Revisa los puntos a continuación — si todo está en verde y tu cliente de IA sigue sin ver el conector, haz clic en \"Probar de nuevo\"."
+
+msgid "← Back to instructions"
+msgstr "← Volver a las instrucciones"
+
+msgid "⟳ Test again"
+msgstr "⟳ Probar de nuevo"
+
+msgid "Restart wizard"
+msgstr "Reiniciar asistente"
+
+msgid "Show the raw connection details"
+msgstr "Mostrar los detalles brutos de la conexión"
+
+msgid "MCP endpoint"
+msgstr "Endpoint MCP"
+
+msgid "Protected Resource Metadata"
+msgstr "Protected Resource Metadata (OAuth)"
+
+msgid "Authorization Server Metadata"
+msgstr "Authorization Server Metadata (OAuth)"
+
+msgid "Authorize URL"
+msgstr "URL de autorización"
+
+msgid "Token endpoint"
+msgstr "Endpoint de token"
+
+msgid "MCP endpoint registered"
+msgstr "Endpoint MCP registrado"
+
+msgid "Plugin failed to register the REST route."
+msgstr "El plugin no pudo registrar la ruta REST."
+
+msgid "Tools registered"
+msgstr "Herramientas registradas"
+
+msgid "%d tool"
+msgid_plural "%d tools"
+msgstr[0] "%d herramienta"
+msgstr[1] "%d herramientas"
+
+msgid "No tools registered — Abilities API may have failed to initialise."
+msgstr "Ninguna herramienta registrada — Abilities API puede no haberse inicializado."
+
+msgid "OAuth Protected Resource Metadata"
+msgstr "OAuth Protected Resource Metadata"
+
+msgid "OAuth Authorization Server Metadata"
+msgstr "OAuth Authorization Server Metadata"
+
+msgid "Standard /.well-known/ discovery path"
+msgstr "Ruta de descubrimiento estándar /.well-known/"
+
+msgid "HTTP %d when fetching %s"
+msgstr "HTTP %d al solicitar %s"
+
+msgid "HTTP %d when fetching %s — most hosts allow .well-known, but the REST-API discovery URLs above still work as a fallback."
+msgstr "HTTP %d al solicitar %s — la mayoría de hosts permite .well-known, pero las URLs REST de arriba siguen sirviendo como respaldo."
+
+msgid "Unauthenticated request returns OAuth challenge"
+msgstr "Una petición sin autenticar devuelve un desafío OAuth"
+
+msgid "401 + WWW-Authenticate header points at the PRM URL. AI clients can discover the OAuth flow."
+msgstr "401 + cabecera WWW-Authenticate apunta a la URL del PRM. Los clientes de IA pueden descubrir el flujo OAuth."
+
+msgid "Expected 401 + Bearer challenge; got HTTP %d. Some host firewall (Cloudflare, Wordfence) may be blocking the endpoint."
+msgstr "Se esperaba 401 + desafío Bearer; llegó HTTP %d. Algún firewall del host (Cloudflare, Wordfence) podría estar bloqueando el endpoint."
+
+msgid "MCP for WP by Tropk.ai: Composer dependencies are missing. Run \"composer install\" inside the plugin directory."
+msgstr "MCP para WordPress (Tropk.ai): faltan dependencias de Composer. Ejecuta \"composer install\" dentro del directorio del plugin."
+
+msgid "MCP for WP by Tropk.ai requires WordPress %s or newer (Abilities API)."
+msgstr "MCP para WordPress (Tropk.ai) requiere WordPress %s o superior (Abilities API)."
+
+msgid "MCP for WP by Tropk.ai: the Abilities API is unavailable. Make sure WordPress 6.9 or newer is installed."
+msgstr "MCP para WordPress (Tropk.ai): Abilities API no está disponible. Asegúrate de tener WordPress 6.9 o superior instalado."
+
+msgid "Insufficient permissions."
+msgstr "Permisos insuficientes."
+
+msgid "Invalid client."
+msgstr "Cliente no válido."
+
+msgid "Authorize MCP client"
+msgstr "Autorizar cliente MCP"
+
+msgid "is requesting permission to access your site with the following scopes:"
+msgstr "solicita permiso para acceder a tu sitio con los siguientes ámbitos:"
+
+msgid "Allow"
+msgstr "Permitir"
+
+msgid "Deny"
+msgstr "Denegar"
+
+msgid "Signed in as %s."
+msgstr "Conectado como %s."
+
+msgid "Consent form expired or invalid."
+msgstr "Formulario de consentimiento caducado o no válido."
+
+msgid "You must be logged in to grant access."
+msgstr "Debes iniciar sesión para conceder acceso."
+
+msgid "MCP for WP"
+msgstr "MCP para WordPress"
+
+msgid "Tools exposed by the MCP for WP plugin."
+msgstr "Herramientas expuestas por el plugin MCP para WordPress."
+
+# Step 1 — coming-soon badge
+msgid "Em breve"
+msgstr "Próximamente"
+
+# Step 2 — one-click install block
+msgid "One-click install in %s"
+msgstr "Instalar en %s con un clic"
+
+msgid "opens the AI app with the connector pre-filled"
+msgstr "abre la app de IA con el conector ya completado"
+
+msgid "or paste manually"
+msgstr "o pega manualmente"
+
+# Step 2 — Claude instructions
+msgid "Click <strong>One-click install ↗</strong> below. Claude.ai opens with the connector name + URL pre-filled."
+msgstr "Haz clic en <strong>Instalar con un clic ↗</strong> abajo. Claude.ai se abre con el nombre y la URL del conector ya completados."
+
+msgid "Review the values, click <strong>Add</strong>, then <strong>Link</strong>. A WordPress login window will open — sign in with the account you want the AI to act as."
+msgstr "Revisa los valores, haz clic en <strong>Añadir</strong> y luego en <strong>Vincular</strong>. Se abrirá una ventana de inicio de sesión de WordPress — entra con la cuenta que la IA debe representar."
+
+msgid "Click <strong>Allow</strong> on the consent screen. The tools appear in Claude."
+msgstr "Haz clic en <strong>Permitir</strong> en la pantalla de consentimiento. Las herramientas aparecen en Claude."
+
+# Step 2 — ChatGPT instructions
+msgid "Open <strong>ChatGPT</strong> → <strong>Settings → Apps & Connectors → Advanced settings</strong> and enable developer mode."
+msgstr "Abre <strong>ChatGPT</strong> → <strong>Ajustes → Apps y Conectores → Ajustes avanzados</strong> y activa el modo desarrollador."
+
+msgid "Go to <strong>Settings → Apps & Connectors → Create</strong>. Give it any name."
+msgstr "Ve a <strong>Ajustes → Apps y Conectores → Crear</strong>. Dale el nombre que quieras."
+
+msgid "Paste the MCP URL below into the <strong>MCP Server URL</strong> field. ChatGPT does not (yet) support 1-click install — manual paste is the only path."
+msgstr "Pega la URL MCP de abajo en el campo <strong>URL del servidor MCP</strong>. ChatGPT (aún) no admite instalación con 1 clic — pegar manualmente es la única vía."
+
+msgid "Click <strong>Create</strong>, sign into WordPress when prompted, click <strong>Allow</strong>."
+msgstr "Haz clic en <strong>Crear</strong>, inicia sesión en WordPress cuando se solicite y haz clic en <strong>Permitir</strong>."
+
+# Step 2 — Cursor instructions
+msgid "Click <strong>One-click install ↗</strong>. Cursor opens its MCP-install dialog with the URL pre-filled."
+msgstr "Haz clic en <strong>Instalar con un clic ↗</strong>. Cursor abre su diálogo de instalación MCP con la URL ya completada."
+
+msgid "Click <strong>Add server</strong>. On first use, Cursor opens the WordPress consent screen in a browser — sign in, then click <strong>Allow</strong>."
+msgstr "Haz clic en <strong>Añadir servidor</strong>. En el primer uso, Cursor abre la pantalla de consentimiento de WordPress en un navegador — entra y haz clic en <strong>Permitir</strong>."
+
+# Step 2 — Windsurf instructions
+msgid "Open <strong>Windsurf</strong> → <strong>Cascade → MCP</strong>."
+msgstr "Abre <strong>Windsurf</strong> → <strong>Cascade → MCP</strong>."
+
+msgid "Click <strong>Add custom server</strong>, paste the URL below."
+msgstr "Haz clic en <strong>Añadir servidor personalizado</strong> y pega la URL de abajo."
+
+msgid "Sign into WordPress when prompted; click <strong>Allow</strong>."
+msgstr "Inicia sesión en WordPress cuando se solicite y haz clic en <strong>Permitir</strong>."
+
+# Step 2 — Lovable instructions
+msgid "Open <strong>Lovable</strong> → <strong>Connectors → New MCP server</strong>."
+msgstr "Abre <strong>Lovable</strong> → <strong>Conectores → Nuevo servidor MCP</strong>."
+
+msgid "Name the connector and paste the URL below. Leave authentication on <strong>OAuth</strong> (default)."
+msgstr "Asigna un nombre al conector y pega la URL de abajo. Deja la autenticación en <strong>OAuth</strong> (por defecto)."
+
+# Step 2 — Generic fallback instructions
+msgid "Open the MCP / custom-connector settings of your AI assistant."
+msgstr "Abre los ajustes de MCP / conector personalizado de tu asistente de IA."
+
+msgid "Paste the URL below."
+msgstr "Pega la URL de abajo."
+
+# Windsurf-specific (v0.5.6)
+msgid "Open <strong>Windsurf</strong> → <strong>Settings → Cascade → MCP servers → Add custom server +</strong>. Windsurf opens <code>~/.codeium/windsurf/mcp_config.json</code> in its editor."
+msgstr "Abre <strong>Windsurf</strong> → <strong>Settings → Cascade → MCP servers → Add custom server +</strong>. Windsurf abre el archivo <code>~/.codeium/windsurf/mcp_config.json</code> en el editor."
+
+msgid "Paste the JSON below (or merge it into the existing <code>mcpServers</code> block, keeping any other servers you already have)."
+msgstr "Pega el JSON de abajo (o fusiónalo con el bloque <code>mcpServers</code> existente, manteniendo cualquier otro servidor que ya tengas)."
+
+msgid "Save the file. <strong>Then go back to the Cascade panel and click the Refresh (🔄) button</strong> — without that, Windsurf does NOT reload the config."
+msgstr "Guarda el archivo. <strong>Después vuelve al panel Cascade y haz clic en Refresh (🔄)</strong> — sin eso Windsurf NO recarga la configuración."
+
+msgid "⚠️ Windsurf does not yet support OAuth for remote MCP — only a static Bearer/PAT. To use this plugin, generate an <a href=\"%s\">Application Password</a> and add an <code>Authorization: Basic …</code> header in the JSON (example below)."
+msgstr "⚠️ Windsurf todavía no soporta OAuth para MCP remoto — solo un Bearer/PAT estático. Para usar este plugin, genera una <a href=\"%s\">Contraseña de aplicación</a> y añade un header <code>Authorization: Basic …</code> en el JSON (ejemplo abajo)."
+
+msgid "Snippet for Windsurf mcp_config.json"
+msgstr "Snippet para mcp_config.json de Windsurf"
+
+msgid "<strong>How to generate the Application Password:</strong> WP-Admin → <a href=\"%1$s\" target=\"_blank\">Users → Profile</a> → scroll to \"Application Passwords\" → any name (e.g. \"Windsurf\") → <strong>Add new application password</strong>. Copy the generated password, combine it with your username as <code>username:password</code>, base64-encode it (use <a href=\"https://www.base64encode.org/\" target=\"_blank\">base64encode.org</a> or run <code>echo -n 'user:password' | base64</code>) and replace <code>&lt;BASE64_OF_USERNAME:APPLICATION_PASSWORD&gt;</code> in the JSON."
+msgstr "<strong>Cómo generar la Application Password:</strong> WP-Admin → <a href=\"%1$s\" target=\"_blank\">Usuarios → Perfil</a> → baja a \"Application Passwords\" → cualquier nombre (ej.: \"Windsurf\") → <strong>Add new application password</strong>. Copia la contraseña generada, únela con tu usuario como <code>username:password</code>, codifícala en base64 (usa <a href=\"https://www.base64encode.org/\" target=\"_blank\">base64encode.org</a> o ejecuta <code>echo -n 'user:contraseña' | base64</code>) y reemplaza <code>&lt;BASE64_OF_USERNAME:APPLICATION_PASSWORD&gt;</code> en el JSON."
+
+msgid "After saving the file, click the Refresh (🔄) button in the Cascade panel — without it Windsurf does not reload the config."
+msgstr "Tras guardar el archivo, haz clic en el botón Refresh (🔄) en el panel Cascade — sin eso Windsurf no recarga la configuración."
+
+# Report-an-error link (v0.5.9)
+msgid "Report an error"
+msgstr "Reportar un error"
+
+msgid "Report an error:"
+msgstr "Reportar un error:"
+
+# Step 1 grouping (v0.5.11)
+msgid "Stable"
+msgstr "Estables"
+
+msgid "Unstable"
+msgstr "Inestables"
+
+msgid "Unstable dev mode"
+msgstr "En modo dev inestable"
+
+msgid "Coming soon"
+msgstr "Próximamente"

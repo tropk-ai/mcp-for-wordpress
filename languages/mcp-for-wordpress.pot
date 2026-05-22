@@ -1,0 +1,293 @@
+# Copyright (C) 2026 Tropk.ai
+# This file is distributed under the GPL-3.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: MCP for WP, Elementor and more by Tropk.ai 0.5.0\n"
+"Report-Msgid-Bugs-To: https://github.com/tropk-ai/mcp-for-wordpress/issues\n"
+"POT-Creation-Date: 2026-05-22 12:00+0000\n"
+"PO-Revision-Date: 2026-05-22 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Domain: mcp-for-wordpress\n"
+
+# Plugin metadata
+msgid "MCP for WP, Elementor and more by Tropk.ai"
+msgstr ""
+
+msgid "by %s — connect this site to Claude, ChatGPT, Cursor and any MCP-compatible AI assistant."
+msgstr ""
+
+msgid "Connect this site to your favorite AI assistant"
+msgstr ""
+
+# Onboarding — top hero (legacy msgid retained for back-compat with old translations)
+msgid "Wordpress MCP"
+msgstr ""
+
+# Admin menu label
+msgid "MCP by Tropk.ai"
+msgstr ""
+
+msgid "Choose assistant"
+msgstr ""
+
+msgid "Connect"
+msgstr ""
+
+msgid "Test"
+msgstr ""
+
+# Step 1
+msgid "Pick your AI assistant"
+msgstr ""
+
+msgid "Wordpress MCP exposes 450+ tools — pages, posts, Elementor widgets, Rank Math SEO, ACF, WooCommerce — to any MCP-compatible AI assistant. Pick where you want to connect from."
+msgstr ""
+
+msgid "Connect to Claude"
+msgstr ""
+
+msgid "Connect to ChatGPT"
+msgstr ""
+
+msgid "Connect →"
+msgstr ""
+
+# Step 2
+msgid "Step 2 · Connect %s"
+msgstr ""
+
+msgid "%s uses OAuth 2.1 with automatic dynamic client registration. You only need the URL below — no headers, no Application Passwords, no API keys."
+msgstr ""
+
+msgid "MCP Server URL"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "What happens behind the scenes (optional reading)"
+msgstr ""
+
+msgid "← Back"
+msgstr ""
+
+msgid "Open %s settings ↗"
+msgstr ""
+
+msgid "I've connected — test the connection →"
+msgstr ""
+
+msgid "Open <strong>Claude.ai</strong> → <strong>Settings → Connectors → Add custom connector</strong>."
+msgstr ""
+
+msgid "Open <strong>ChatGPT</strong> → <strong>Settings → Connectors → Add custom connector</strong>."
+msgstr ""
+
+msgid "Give it any name (e.g. <code>%s</code>)."
+msgstr ""
+
+msgid "Paste the MCP URL below into the <strong>Server URL</strong> field."
+msgstr ""
+
+msgid "Click <strong>Link</strong>. A WordPress login window will open — sign in with the account you want the AI to act as, then click <strong>Allow</strong> on the consent screen."
+msgstr ""
+
+# Step 3
+msgid "Step 3 · Connected"
+msgstr ""
+
+msgid "Step 3 · Not connected yet"
+msgstr ""
+
+msgid "The MCP server is live and currently exposes %d tools. Go back to your AI assistant — it should list every tool under this connector now."
+msgstr ""
+
+msgid "We couldn't verify the connection. Check the items below — if everything is green and your AI client still doesn't see the connector, click \"Test again\"."
+msgstr ""
+
+msgid "← Back to instructions"
+msgstr ""
+
+msgid "⟳ Test again"
+msgstr ""
+
+msgid "Restart wizard"
+msgstr ""
+
+msgid "Show the raw connection details"
+msgstr ""
+
+msgid "MCP endpoint"
+msgstr ""
+
+msgid "Protected Resource Metadata"
+msgstr ""
+
+msgid "Authorization Server Metadata"
+msgstr ""
+
+msgid "Authorize URL"
+msgstr ""
+
+msgid "Token endpoint"
+msgstr ""
+
+# Health checks
+msgid "MCP endpoint registered"
+msgstr ""
+
+msgid "Plugin failed to register the REST route."
+msgstr ""
+
+msgid "Tools registered"
+msgstr ""
+
+msgid "%d tool"
+msgid_plural "%d tools"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "No tools registered — Abilities API may have failed to initialise."
+msgstr ""
+
+msgid "OAuth Protected Resource Metadata"
+msgstr ""
+
+msgid "OAuth Authorization Server Metadata"
+msgstr ""
+
+msgid "Standard /.well-known/ discovery path"
+msgstr ""
+
+msgid "HTTP %d when fetching %s"
+msgstr ""
+
+msgid "HTTP %d when fetching %s — most hosts allow .well-known, but the REST-API discovery URLs above still work as a fallback."
+msgstr ""
+
+msgid "Unauthenticated request returns OAuth challenge"
+msgstr ""
+
+msgid "401 + WWW-Authenticate header points at the PRM URL. AI clients can discover the OAuth flow."
+msgstr ""
+
+msgid "Expected 401 + Bearer challenge; got HTTP %d. Some host firewall (Cloudflare, Wordfence) may be blocking the endpoint."
+msgstr ""
+
+# Errors / boot guards
+msgid "MCP for WP by Tropk.ai: Composer dependencies are missing. Run \"composer install\" inside the plugin directory."
+msgstr ""
+
+msgid "MCP for WP by Tropk.ai requires WordPress %s or newer (Abilities API)."
+msgstr ""
+
+msgid "MCP for WP by Tropk.ai: the Abilities API is unavailable. Make sure WordPress 6.9 or newer is installed."
+msgstr ""
+
+msgid "Insufficient permissions."
+msgstr ""
+
+msgid "Invalid client."
+msgstr ""
+
+# OAuth wizard / consent
+msgid "Authorize MCP client"
+msgstr ""
+
+msgid "is requesting permission to access your site with the following scopes:"
+msgstr ""
+
+msgid "Allow"
+msgstr ""
+
+msgid "Deny"
+msgstr ""
+
+msgid "Signed in as %s."
+msgstr ""
+
+msgid "Consent form expired or invalid."
+msgstr ""
+
+msgid "You must be logged in to grant access."
+msgstr ""
+
+# Generic
+msgid "MCP for WP"
+msgstr ""
+
+msgid "Tools exposed by the MCP for WP plugin."
+msgstr ""
+
+# Step 1 — coming-soon badge
+msgid "Em breve"
+msgstr ""
+
+# Step 2 — one-click install block
+msgid "One-click install in %s"
+msgstr ""
+
+msgid "opens the AI app with the connector pre-filled"
+msgstr ""
+
+msgid "or paste manually"
+msgstr ""
+
+# Step 2 — Claude instructions
+msgid "Click <strong>One-click install ↗</strong> below. Claude.ai opens with the connector name + URL pre-filled."
+msgstr ""
+
+msgid "Review the values, click <strong>Add</strong>, then <strong>Link</strong>. A WordPress login window will open — sign in with the account you want the AI to act as."
+msgstr ""
+
+msgid "Click <strong>Allow</strong> on the consent screen. The tools appear in Claude."
+msgstr ""
+
+# Step 2 — ChatGPT instructions
+msgid "Open <strong>ChatGPT</strong> → <strong>Settings → Apps & Connectors → Advanced settings</strong> and enable developer mode."
+msgstr ""
+
+msgid "Go to <strong>Settings → Apps & Connectors → Create</strong>. Give it any name."
+msgstr ""
+
+msgid "Paste the MCP URL below into the <strong>MCP Server URL</strong> field. ChatGPT does not (yet) support 1-click install — manual paste is the only path."
+msgstr ""
+
+msgid "Click <strong>Create</strong>, sign into WordPress when prompted, click <strong>Allow</strong>."
+msgstr ""
+
+# Step 2 — Cursor instructions
+msgid "Click <strong>One-click install ↗</strong>. Cursor opens its MCP-install dialog with the URL pre-filled."
+msgstr ""
+
+msgid "Click <strong>Add server</strong>. On first use, Cursor opens the WordPress consent screen in a browser — sign in, then click <strong>Allow</strong>."
+msgstr ""
+
+# Step 2 — Windsurf instructions
+msgid "Open <strong>Windsurf</strong> → <strong>Cascade → MCP</strong>."
+msgstr ""
+
+msgid "Click <strong>Add custom server</strong>, paste the URL below."
+msgstr ""
+
+msgid "Sign into WordPress when prompted; click <strong>Allow</strong>."
+msgstr ""
+
+# Step 2 — Lovable instructions
+msgid "Open <strong>Lovable</strong> → <strong>Connectors → New MCP server</strong>."
+msgstr ""
+
+msgid "Name the connector and paste the URL below. Leave authentication on <strong>OAuth</strong> (default)."
+msgstr ""
+
+# Step 2 — Generic fallback instructions
+msgid "Open the MCP / custom-connector settings of your AI assistant."
+msgstr ""
+
+msgid "Paste the URL below."
+msgstr ""
