@@ -6,7 +6,7 @@ Paste this into the long-description field on the wordpress.org submission form.
 
 ## Short description (one line, ≤ 150 chars)
 
-> Connect any WordPress site to Claude, ChatGPT, Cursor and Gemini through MCP. ~400 tools across content, Elementor, SEO, WooCommerce and more.
+> Connect any WordPress site to Claude, ChatGPT, Cursor and Gemini through MCP. ~450 tools across content, Elementor, SEO, WooCommerce and more.
 
 ---
 
@@ -16,12 +16,12 @@ Paste this into the long-description field on the wordpress.org submission form.
 
 No API keys. No copy-pasted headers. The visual 3-step wizard does the OAuth handshake for you.
 
-This plugin is the spiritual successor to a year of fragmented "WordPress + AI" plugins — every tool is **100% our own code**, written from scratch on the official WordPress 6.9 Abilities API. Nothing is bundled, nothing is forked, no third-party plugin source is shipped.
+This plugin is the spiritual successor to a year of fragmented "WordPress + AI" plugins, written from scratch on the official WordPress 6.9 Abilities API. 
 
 ### What you can do with it
 
 **Content management**
-- List, read, create, update, delete posts, pages and custom post types
+- List, read, create, update, delete posts and pages
 - Bulk operations — generate 50 product descriptions, slugify 200 titles, retroactively assign categories
 - Edit individual postmeta keys with snapshot-backed rollback
 - Manage comments, taxonomies, terms, menus, media
@@ -29,7 +29,8 @@ This plugin is the spiritual successor to a year of fragmented "WordPress + AI" 
 
 **Web design (Elementor)**
 - Get a compact outline of any Elementor page (≤ 2 KB) so the AI can reason about structure without burning context
-- List every widget on a page with id, type, depth and a text snippet
+- Create and edit entire pages
+- List and create every widget on a page with id, type, depth and a text snippet
 - Clone a page with all element IDs regenerated and Theme Builder + Global Kit carried over
 - Search-and-replace text across an Elementor page in a single call
 - Update a widget setting by ID (single key) — no need to ship 100 KB of JSON
@@ -51,9 +52,8 @@ This plugin is the spiritual successor to a year of fragmented "WordPress + AI" 
 - Compare a page's SEO state before / after a campaign via per-tool checkpoints
 
 **Custom fields (ACF)**
-- Read every ACF field value on a post through `get_field()` so Repeater and Flexible Content come back as nested structures, not raw postmeta
 - Update individual ACF fields via `update_field()` — safe for repeaters, flexible content, and field-key references
-- List ACF field groups, field types, post types and taxonomies
+- List and create ACF field groups, field types, post types and taxonomies
 
 **Performance**
 - Purge cache for WP Rocket, LiteSpeed Cache, W3 Total Cache, WP Super Cache, Cache Enabler and Autoptimize through their documented public APIs (never their internals)
@@ -69,11 +69,11 @@ This plugin is the spiritual successor to a year of fragmented "WordPress + AI" 
 - Reset and clean transients, options, expired comments
 
 **WooCommerce** (when active)
-- Read and update products, orders, customers, coupons
+- List, create and update products, orders, customers, coupons
 - Bulk price adjustments, inventory edits
 
 **Gutenberg / FSE**
-- Read and write reusable blocks, block patterns, style variations
+- List and create reusable blocks, block patterns, style variations
 - Manage template parts and theme.json
 
 ### Use cases
@@ -103,13 +103,13 @@ This plugin is the spiritual successor to a year of fragmented "WordPress + AI" 
 
 1. Upload the plugin zip via Plugins → Add New → Upload Plugin → choose the file → Install Now
 2. Activate
-3. The wizard opens automatically. Pick Claude.ai or ChatGPT. Paste the URL into the AI's "Custom connector" screen. Sign in to WordPress. Click "Allow". Click "Test connection". Done.
+3. The wizard opens automatically. Pick your favorite AI. One-click connection or follow the instructions. Sign in to WordPress. Click "Allow". Click "Test connection". Done.
 
 Requirements: WordPress 6.9+, PHP 8.1+.
 
 ### Pricing
 
-Free. GPL-3.0. We sell consulting, custom integrations and managed setup at https://tropk.ai — the plugin itself is and always will be free.
+Free. GPL-3.0: the plugin itself is and always will be free.
 
 ### Trademarks
 
