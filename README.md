@@ -1,6 +1,6 @@
 # MCP for WP, Elementor and more by Tropk.ai
 
-Turn any WordPress site into a Model Context Protocol (MCP) server for Claude.ai, ChatGPT (instable), Cursor, Windsurf, and other AI assistants. Built on the official WordPress 6.9 Abilities API. **450+ tools** out of the box, with 100% original code.
+Turn any WordPress site into a Model Context Protocol (MCP) server for Claude.ai, Lovable, ChatGPT (instable), Cursor, Windsurf, and other AI assistants. Built on the official WordPress 6.9 Abilities API. **450+ tools** out of the box, with 100% original code.
 
 ## What it does
 
