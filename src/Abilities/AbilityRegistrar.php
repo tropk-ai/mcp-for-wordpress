@@ -450,23 +450,6 @@ final class AbilityRegistrar {
 		add_action( 'wp_abilities_api_categories_init', [ $this, 'register_category' ] );
 		add_action( 'wp_abilities_api_init',            [ $this, 'register_abilities' ] );
 
-		// Belt-and-braces: WP 6.9 / Abilities API 0.3.0 rejects any ability
-		// whose category slug is not already registered. The action ordering
-		// above SHOULD ensure categories land first, but if a third-party
-		// plugin happens to call wp_get_ability() earlier in the request the
-		// categories_init action may have fired without our hook attached
-		// yet. So we ALSO register categories synchronously at plugins_loaded
-		// priority 99 (the same slot our VendorLoader uses), where the
-		// Abilities API is guaranteed to be loaded and the registry is
-		// guaranteed to be fresh.
-		add_action(
-			'plugins_loaded',
-			function (): void {
-				$this->register_category();
-			},
-			99
-		);
-
 		// Eagerly initialise the registry now, while our callbacks are guaranteed
 		// to be hooked. If we let mcp-adapter trigger initialization later from
 		// inside create_server, any earlier wp_get_ability call from another
@@ -511,6 +494,17 @@ final class AbilityRegistrar {
 
 	public function register_category(): void {
 		if ( ! function_exists( 'wp_register_ability_category' ) ) {
+			return;
+		}
+
+		// Abilities API 0.3.0 rejects any wp_register_ability_category() call
+		// not made during one of the categories_init actions and emits a
+		// _doing_it_wrong notice. Bail out before touching __() so we don't
+		// trigger JIT textdomain loading before `init` either.
+		if (
+			! doing_action( 'abilities_api_categories_init' )
+			&& ! doing_action( 'wp_abilities_api_categories_init' )
+		) {
 			return;
 		}
 
