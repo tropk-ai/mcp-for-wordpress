@@ -438,6 +438,18 @@ final class AbilityRegistrar {
 		Elementor\Widgets\ElementorAddAImageAbility::class,
 		Elementor\Widgets\ElementorAddAParagraphAbility::class,
 		Elementor\Widgets\ElementorAddASvgAbility::class,
+		// Divi 5 — one file per tool. Only Divi 5 (et_builder_version >= 5.0.0)
+		// is supported; Divi 4 pages are rejected with a clear error.
+		Divi\DiviListPagesAbility::class,
+		Divi\DiviGetPageOutlineAbility::class,
+		Divi\DiviGetPageStructureAbility::class,
+		Divi\DiviListModulesAbility::class,
+		Divi\DiviGetModuleAbility::class,
+		Divi\DiviUpdateModuleSettingAbility::class,
+		Divi\DiviDeleteModuleAbility::class,
+		Divi\DiviClonePageAbility::class,
+		Divi\DiviReplaceTextAbility::class,
+		Divi\DiviFlushCssAbility::class,
 	];
 
 	public function register(): void {
