@@ -6,7 +6,7 @@ Turn any WordPress site into a Model Context Protocol (MCP) server for Claude.ai
 
 - Single endpoint at `/wp-json/webinhood-mcp/v1/mcp`
 - Full OAuth 2.1 (Dynamic Client Registration, PKCE S256, refresh-token rotation, revocation) — no API keys, no Authorization headers
-- `~360` abilities across: Posts / Pages / CPTs, Elementor (161), Rank Math (23), ACF, WooCommerce (18), Internal Link Juicer, Gutenberg/FSE, cache, cron, security, roles, media
+- `500+` abilities across: Posts / Pages / CPTs, Elementor (161), Rank Math (23), ACF, WooCommerce (18), Internal Link Juicer, Gutenberg/FSE, cache, cron, security, roles, media
 - Visual onboarding wizard — pick the AI assistant, paste a URL, click "test"
 - Audit log + per-post snapshots before any destructive write
 - Confused-deputy guard, Origin allowlist, three-bucket rate limiter, atomic-widget safety
