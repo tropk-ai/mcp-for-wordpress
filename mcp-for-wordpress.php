@@ -3,7 +3,7 @@
  * Plugin Name:       MCP for WP, Elementor and more by Tropk.ai
  * Plugin URI:        https://github.com/tropk-ai/mcp-for-wordpress
  * Description:       Turns any WordPress site into a Model Context Protocol (MCP) server for Claude.ai, ChatGPT and other AI assistants. Ships 450+ tools across content, Elementor, ACF, Rank Math, WooCommerce, Gutenberg / FSE, cron, performance, security and roles.
- * Version:           0.5.14
+ * Version:           0.5.4
  * Requires at least: 6.9
  * Requires PHP:      8.1
  * Author:            Tropk.ai
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TROPK_MCP_VERSION', '0.5.14' );
+define( 'TROPK_MCP_VERSION', '0.5.4' );
 define( 'TROPK_MCP_FILE', __FILE__ );
 define( 'TROPK_MCP_DIR', plugin_dir_path( __FILE__ ) );
 define( 'TROPK_MCP_URL', plugin_dir_url( __FILE__ ) );
@@ -69,6 +69,18 @@ require_once $tropk_mcp_autoloader;
 // breaking Application Passwords + Bearer tokens silently. Must run as
 // early as possible, before plugins_loaded.
 \Tropk\Mcp\Auth\AuthorizationHeaderShim::bootstrap();
+
+// Intercept /.well-known/oauth-* and openid-configuration before WordPress
+// has a chance to canonical-redirect or 404 them. On hosts where nginx
+// proxies /.well-known/ paths through to WordPress (Hostinger HCDN,
+// KingHost-style nginx defaults, some shared LiteSpeed configs), WP's
+// `redirect_canonical` fires before our `parse_request` listener and turns
+// /.well-known/openid-configuration into a 301 to `/` (`x-redirect-by:
+// WordPress`), breaking OAuth discovery for Claude.ai / ChatGPT / Cursor.
+// Hooking at plugins_loaded:1 runs before init / parse_request /
+// template_redirect, so this catches the request before any routing
+// decision and serves the JSON directly.
+\Tropk\Mcp\OAuth\Endpoints\MetadataEndpoints::boot_well_known_early();
 
 add_action(
 	'init',

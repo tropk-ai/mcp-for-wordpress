@@ -3,6 +3,7 @@ declare(strict_types=1);
 namespace Tropk\Mcp\Abilities\Elementor;
 use Tropk\Mcp\Abilities\AbstractAbility;
 use Tropk\Mcp\Backup\SnapshotManager;
+use Tropk\Mcp\Elementor\ElementorMeta;
 final class ElementorImportPageAbility extends AbstractAbility {
 	public function slug(): string { return 'elementor-import-page'; }
 	protected function meta(): array { return [ 'label' => __( 'Import Elementor JSON into a post', 'mcp-for-wordpress' ), 'description' => __( "Overwrites a target post's _elementor_data with the supplied JSON. Snapshots the post first. All IDs are regenerated to avoid collisions.", 'mcp-for-wordpress' ), 'destructive' => true ]; }
@@ -25,7 +26,8 @@ final class ElementorImportPageAbility extends AbstractAbility {
 		update_post_meta( $id, '_elementor_data', wp_slash( (string) wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) ) );
 		update_post_meta( $id, '_elementor_edit_mode', 'builder' );
 		if ( isset( $input['page_settings'] ) && is_array( $input['page_settings'] ) ) {
-			update_post_meta( $id, '_elementor_page_settings', wp_slash( (string) wp_json_encode( $input['page_settings'] ) ) );
+			// Native array, not a JSON string — see ElementorMeta / bug #3.
+			ElementorMeta::write_page_settings( $id, $input['page_settings'] );
 		}
 		delete_post_meta( $id, '_elementor_css' );
 		return [ 'imported' => true, 'snapshot_id' => $snap['snapshot_id'] ];

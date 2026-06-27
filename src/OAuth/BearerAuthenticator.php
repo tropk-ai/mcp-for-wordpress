@@ -120,17 +120,28 @@ final class BearerAuthenticator {
 			return $response;
 		}
 
-		// Canonical /.well-known URL — Claude.ai's web connector follows
-		// the resource_metadata link verbatim. Keep the `realm="tropk-core"`
-		// auth-param ahead of resource_metadata: that's the format the
-		// plugin shipped with through 0.5.6 (the last release before the
-		// ChatGPT-only changes), and Claude has been happy with it the
-		// whole time. The bare-Bearer experiment we tried in 0.5.7-0.5.12
-		// to placate ChatGPT correlated with Claude breaking, so we revert
-		// to the well-tested form. ChatGPT stays in "unstable dev mode"
-		// in the onboarding wizard until we find a non-Claude-breaking
-		// path.
-		$metadata_url = MetadataEndpoints::well_known_prm_url();
+		// Use the REST URL (`/wp-json/tropk-mcp/v1/oauth-protected-resource`)
+		// in the WWW-Authenticate header, NOT the /.well-known URL.
+		//
+		// Per RFC 9728 §5.1, the resource_metadata value is just "a URL
+		// where the protected resource metadata can be retrieved" — any URL
+		// works. RFC 9728-aware clients (Claude.ai, Cursor, Lovable,
+		// Windsurf) follow the link verbatim, so pointing at /wp-json/
+		// works on every host. The /.well-known/ form fails on shared hosts
+		// that reserve /.well-known/ for ACME SSL renewals at the nginx
+		// layer (Locaweb, UOL, KingHost, RedeHost, some Hostinger configs)
+		// — they return a static 404 HTML page before WordPress sees the
+		// request, which makes Claude show "Não foi possível registrar"
+		// because PRM discovery never reaches our PHP handler.
+		//
+		// The /wp-json/ URL is always reachable when WordPress's REST API
+		// works — and the plugin can't function at all without REST API,
+		// so this is the safest invariant we have.
+		//
+		// ChatGPT (currently disabled in the wizard) probes /.well-known/
+		// directly and ignores the WWW-Authenticate hint, so this change
+		// doesn't affect it either way.
+		$metadata_url = MetadataEndpoints::rest_prm_url();
 		$response->header(
 			'WWW-Authenticate',
 			sprintf(

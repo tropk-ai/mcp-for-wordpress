@@ -17,15 +17,15 @@ final class RevocationEndpoint {
 	}
 
 	public function register_route(): void {
-		register_rest_route(
-			'tropk-mcp/v1',
-			'/oauth/revoke',
-			[
-				'methods'             => 'POST',
-				'callback'            => [ $this, 'handle' ],
-				'permission_callback' => '__return_true',
-			]
-		);
+		$args = [
+			'methods'             => 'POST',
+			'callback'            => [ $this, 'handle' ],
+			'permission_callback' => '__return_true',
+		];
+		register_rest_route( 'tropk-mcp/v1', '/oauth/revoke', $args );
+		// Alias for the MCP SDK fallback construction. See
+		// RegistrationEndpoint::register_route() for the full story.
+		register_rest_route( 'tropk-mcp/v1', '/revoke', $args );
 	}
 
 	public function handle( \WP_REST_Request $request ): \WP_REST_Response {

@@ -3,6 +3,7 @@ declare(strict_types=1);
 namespace Tropk\Mcp\Abilities\Elementor;
 use Tropk\Mcp\Abilities\AbstractAbility;
 use Tropk\Mcp\Backup\SnapshotManager;
+use Tropk\Mcp\Elementor\ElementorMeta;
 final class ElementorUpdatePageSettingsAbility extends AbstractAbility {
 	public function slug(): string { return 'elementor-update-page-settings'; }
 	protected function meta(): array { return [ 'label' => __( 'Update Elementor page settings', 'mcp-for-wordpress' ), 'description' => __( 'Merges new keys into _elementor_page_settings. Snapshots first.', 'mcp-for-wordpress' ), 'destructive' => true, 'idempotent' => true ]; }
@@ -12,11 +13,11 @@ final class ElementorUpdatePageSettingsAbility extends AbstractAbility {
 	public function execute( array $input = [] ): array {
 		$id = (int) $input['post_id'];
 		$snap = ( new SnapshotManager() )->snapshot_post( $id, 'elementor-update-page-settings' );
-		$raw = get_post_meta( $id, '_elementor_page_settings', true );
-		$cur = is_string( $raw ) ? (array) ( json_decode( $raw, true ) ?: [] ) : ( is_array( $raw ) ? $raw : [] );
+		$cur = ElementorMeta::read_page_settings( $id );
 		$merged = array_merge( $cur, (array) $input['patch'] );
-		update_post_meta( $id, '_elementor_page_settings', wp_slash( (string) wp_json_encode( $merged, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) ) );
-		delete_post_meta( $id, '_elementor_css' );
+		// Persist as a NATIVE array (not a JSON string): Elementor's
+		// get_saved_settings() expects an array and 500s on a string.
+		ElementorMeta::write_page_settings( $id, $merged );
 		return [ 'updated' => true, 'snapshot_id' => $snap['snapshot_id'] ];
 	}
 }

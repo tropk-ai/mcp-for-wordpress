@@ -341,6 +341,16 @@ final class ElementorPage {
 		}
 	}
 
+	/**
+	 * Walk every node in `_elementor_data` with a mutable reference. The
+	 * callback receives `array &$node` and may mutate `settings`, `styles`,
+	 * `editor_settings` etc. in place. Used by ability classes that need to
+	 * touch the tree without re-implementing the walk.
+	 */
+	public function walk_for_update( callable $cb ): void {
+		$this->walk_mutable( $this->data, $cb );
+	}
+
 	private function walk_mutable( array &$nodes, callable $cb ): void {
 		foreach ( $nodes as &$node ) {
 			if ( ! is_array( $node ) ) continue;

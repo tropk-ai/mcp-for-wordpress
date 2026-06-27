@@ -35,6 +35,41 @@ final class AuthorizationEndpoint {
 		add_action( 'init', [ $this, 'register_rewrite' ] );
 		add_filter( 'query_vars', [ $this, 'register_query_var' ] );
 		add_action( 'template_redirect', [ $this, 'maybe_handle' ], 1 );
+		add_action( 'rest_api_init', [ $this, 'register_rest_alias' ] );
+	}
+
+	/**
+	 * Register a REST alias at /wp-json/tropk-mcp/v1/authorize that
+	 * 302 redirects to /tropk-mcp/oauth/authorize. The MCP TypeScript SDK
+	 * falls back to constructing `<authorization_server>/authorize` when
+	 * the AS metadata can't be reached — with our `authorization_servers`
+	 * pointing at /wp-json/tropk-mcp/v1/, the fallback URL is REST-shaped
+	 * and lands on this handler, which then bounces the browser to the
+	 * cookie-aware path. (REST URLs at /wp-json/* don't have the WordPress
+	 * login cookie semantics our consent screen needs.)
+	 */
+	public function register_rest_alias(): void {
+		register_rest_route(
+			'tropk-mcp/v1',
+			'/authorize',
+			[
+				'methods'             => 'GET',
+				'callback'            => [ $this, 'redirect_to_consent' ],
+				'permission_callback' => '__return_true',
+			]
+		);
+	}
+
+	public function redirect_to_consent( \WP_REST_Request $request ): \WP_REST_Response {
+		$query = $request->get_query_params();
+		$target = self::url();
+		if ( is_array( $query ) && [] !== $query ) {
+			$target = add_query_arg( array_map( 'strval', $query ), $target );
+		}
+		$response = new \WP_REST_Response( null, 302 );
+		$response->header( 'Location', $target );
+		$response->header( 'Cache-Control', 'no-store, no-cache, must-revalidate, private' );
+		return $response;
 	}
 
 	public function register_rewrite(): void {

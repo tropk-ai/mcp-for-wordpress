@@ -5,6 +5,7 @@ namespace Tropk\Mcp\Abilities\Meta;
 
 use Tropk\Mcp\Abilities\AbstractAbility;
 use Tropk\Mcp\Backup\SnapshotManager;
+use Tropk\Mcp\Elementor\ElementorMeta;
 
 final class MetaUpdatePostMetaAbility extends AbstractAbility {
 	public function slug(): string { return 'meta-update-post-meta'; }
@@ -34,7 +35,14 @@ final class MetaUpdatePostMetaAbility extends AbstractAbility {
 			throw new \RuntimeException( 'Refusing to write an _edit_* reserved meta.' );
 		}
 		$snap = ( new SnapshotManager() )->snapshot_post( $id, 'meta-update-post-meta:' . $key );
-		update_post_meta( $id, $key, $input['value'] );
+		// Elementor metas like _elementor_page_settings must be stored as a
+		// native array. If the caller passes a JSON string (or object), coerce
+		// it so Elementor's get_saved_settings() doesn't 500 on a string.
+		if ( ElementorMeta::is_array_meta( $key ) ) {
+			ElementorMeta::write_array_meta( $id, $key, ElementorMeta::to_array( $input['value'] ) );
+		} else {
+			update_post_meta( $id, $key, $input['value'] );
+		}
 		return [ 'updated' => true, 'snapshot_id' => $snap['snapshot_id'] ];
 	}
 }

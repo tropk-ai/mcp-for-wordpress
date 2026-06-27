@@ -7,1703 +7,1871 @@ $baseDir   = dirname($vendorDir);
 
 return array(
 	'Autoloader' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader.php'
 	),
 	'Autoloader_Handler' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-handler.php'
 	),
 	'Autoloader_Locator' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-autoloader-locator.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadFileWriter' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadFileWriter.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadGenerator' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadGenerator.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/AutoloadProcessor.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\CustomAutoloaderPlugin' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\ManifestGenerator' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
 	),
 	'Container' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-container.php'
 	),
 	'Hook_Manager' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-hook-manager.php'
 	),
 	'Latest_Autoloader_Guard' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-latest-autoloader-guard.php'
 	),
 	'Manifest_Reader' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-manifest-reader.php'
 	),
 	'PHP_Autoloader' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-php-autoloader.php'
 	),
 	'Path_Processor' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-path-processor.php'
 	),
 	'Plugin_Locator' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugin-locator.php'
 	),
 	'Plugins_Handler' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-plugins-handler.php'
 	),
 	'Shutdown_Handler' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-shutdown-handler.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Ability' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Ability.php'
 	),
 	'Tropk\\Mcp\\Abilities\\AbilityRegistrar' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/AbilityRegistrar.php'
 	),
 	'Tropk\\Mcp\\Abilities\\AbstractAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/AbstractAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfBlockAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfBlockAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Acf\\AcfFieldAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Acf/AcfFieldAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Acf\\AcfFieldGroupAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Acf/AcfFieldGroupAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfIntrospectionAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfIntrospectionAbility.php'
+	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfLocalJsonAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfLocalJsonAbility.php'
+	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfOptionsPageAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfOptionsPageAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Acf\\AcfPostTypeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Acf/AcfPostTypeAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfRowAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfRowAbility.php'
+	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfSchemaAdminActions' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfSchemaAdminActions.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Acf\\AcfTaxonomyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Acf/AcfTaxonomyAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Acf\\AcfValueAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Acf/AcfValueAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Blocks\\BlocksGetPatternsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Blocks/BlocksGetPatternsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Blocks\\BlocksListTypesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Blocks/BlocksListTypesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Blocks\\BlocksParseAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Blocks/BlocksParseAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Blocks\\BlocksSerializeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Blocks/BlocksSerializeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Bulk\\BulkSetMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Bulk/BulkSetMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsApproveAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsApproveAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsBulkApproveAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsBulkApproveAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsBulkDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsBulkDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsCountAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsCountAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsCreateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsCreateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsGetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsGetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsReplyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsReplyAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Comments\\CommentsUpdateStatusAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Comments/CommentsUpdateStatusAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentBulkCreatePostsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentBulkCreatePostsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentBulkDeletePostsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentBulkDeletePostsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentBulkUpdatePostsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentBulkUpdatePostsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentCreateCategoryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentCreateCategoryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentCreateTagAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentCreateTagAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentDeletePageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentDeletePageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentGetBySlugAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentGetBySlugAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentGetNextPostAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentGetNextPostAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Content\\ContentSchedulePostAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Content/ContentSchedulePostAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Cron\\CronGetSchedulesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Cron/CronGetSchedulesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Cron\\CronListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Cron/CronListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Cron\\CronRunHookAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Cron/CronRunHookAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Cron\\CronScheduleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Cron/CronScheduleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Cron\\CronUnscheduleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Cron/CronUnscheduleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Database\\DbDescribeTableAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Database/DbDescribeTableAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Database\\DbExecuteSelectAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Database/DbExecuteSelectAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Database\\DbListTablesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Database/DbListTablesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Database\\DbPreviewTableAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Database/DbPreviewTableAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddAtomicElementAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddAtomicElementAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddCodeSnippetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddCodeSnippetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddContainerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddContainerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddCustomCssAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddCustomCssAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddCustomJsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddCustomJsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddStockImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddStockImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAddWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAddWidgetAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorApplyGlobalClassToElementAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorApplyGlobalClassToElementAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorApplyTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorApplyTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorApplyTextHierarchyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorApplyTextHierarchyAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColorsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColorsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColumnAlignmentRhythmAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColumnAlignmentRhythmAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColumnBalanceAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColumnBalanceAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColumnDominanceAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColumnDominanceAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColumnNecessityAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColumnNecessityAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditColumnPatternsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditColumnPatternsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditCompositionRhythmAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditCompositionRhythmAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditEmphasisDriftAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditEmphasisDriftAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditGenericComponentRepetitionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditGenericComponentRepetitionAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditGenericLayoutPatternsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditGenericLayoutPatternsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditImageAspectAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditImageAspectAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditLayoutMechanismFitAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditLayoutMechanismFitAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditLinkDensityAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditLinkDensityAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditMobileResponsiveAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditMobileResponsiveAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditNativeWidgetOpportunitiesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditNativeWidgetOpportunitiesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditPageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditPageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditSectionRivalryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditSectionRivalryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditSeparatorDisciplineAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditSeparatorDisciplineAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditSpacingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditSpacingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditSurfaceOveruseAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditSurfaceOveruseAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditTextHierarchyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditTextHierarchyAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorAuditTypographyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorAuditTypographyAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorBatchUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorBatchUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorBuildPageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorBuildPageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCheckBrokenLinksAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCheckBrokenLinksAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorClearCacheAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorClearCacheAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCloneDataAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCloneDataAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorClonePageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorClonePageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCopyLaneSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCopyLaneSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCopyRowBalanceAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCopyRowBalanceAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCountAtomicWidgetsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCountAtomicWidgetsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCountSectionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCountSectionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreateCustomCodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreateCustomCodeAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreateGlobalClassAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreateGlobalClassAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreatePageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreatePageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreatePopupAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreatePopupAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreateTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreateTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreateThemeTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreateThemeTemplateAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorCreateVariableAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorCreateVariableAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteCustomCodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteCustomCodeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteFormSubmissionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteFormSubmissionAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteGlobalClassAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteGlobalClassAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeletePageContentAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeletePageContentAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteTemplateAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteVariableAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteVariableAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDeleteWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDeleteWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDisablePageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDisablePageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDuplicateElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDuplicateElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDuplicateTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDuplicateTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorDuplicateWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorDuplicateWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorEmptyTrashAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorEmptyTrashAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorEnablePageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorEnablePageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorEnforceBoundaryCoherenceAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorEnforceBoundaryCoherenceAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorEvaluateDesignAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorEvaluateDesignAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorEvaluateRenderContextAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorEvaluateRenderContextAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorExportPageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorExportPageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorExportTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorExportTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorExtractDesignTokensAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorExtractDesignTokensAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFindByTypeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFindByTypeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFindContainingTextAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFindContainingTextAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFindElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFindElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFindElementsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFindElementsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFixVisibleGapRhythmAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFixVisibleGapRhythmAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorFlushCssAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorFlushCssAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetActiveKitAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetActiveKitAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetAtomicSchemaAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetAtomicSchemaAbility.php'
+	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetAtomicSettingsAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetAtomicSettingsAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetContainerSchemaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetContainerSchemaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetCustomCodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetCustomCodeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetDataAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetDataAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetElementSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetElementSettingsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetElementStylesAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetElementStylesAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetFormSubmissionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetFormSubmissionAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetGlobalClassAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetGlobalClassAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetGlobalColorsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetGlobalColorsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetGlobalFontsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetGlobalFontsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetKitSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetKitSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetMaintenanceModeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetMaintenanceModeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetOfficialPatternGuidanceAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetOfficialPatternGuidanceAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetOfficialWidgetCatalogAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetOfficialWidgetCatalogAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetPageCssAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetPageCssAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetPageHtmlAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetPageHtmlAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetPageOutlineAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetPageOutlineAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetPageSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetPageSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetPageStructureAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetPageStructureAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetStyleGuideAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetStyleGuideAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetStyleSchemaAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetStyleSchemaAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetTemplateDataAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetTemplateDataAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetThemeBuilderConditionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetThemeBuilderConditionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetThemeContextAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetThemeContextAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorGetWidgetSchemaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorGetWidgetSchemaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorHasFormWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorHasFormWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorImageWidgetToBackgroundContainerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorImageWidgetToBackgroundContainerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorImportPageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorImportPageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorImportTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorImportTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListAnimationsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListAnimationsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListAtomicWidgetsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListAtomicWidgetsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListButtonsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListButtonsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListCodeSnippetsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListCodeSnippetsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListConditionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListConditionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListContainersAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListContainersAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListCustomCodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListCustomCodeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListCustomCssAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListCustomCssAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListDynamicTagsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListDynamicTagsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListExperimentsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListExperimentsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListFormSubmissionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListFormSubmissionsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListGlobalClassesAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListGlobalClassesAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListGlobalWidgetsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListGlobalWidgetsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListHeadingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListHeadingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListIconsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListIconsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListIdsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListIdsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListImagesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListImagesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListKitsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListKitsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListLinksAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListLinksAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListPagesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListPagesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListPagesWithStatsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListPagesWithStatsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListPropTypesAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListPropTypesAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListResponsiveSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListResponsiveSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListTemplatesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListTemplatesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListThemeBuilderAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListThemeBuilderAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListVariablesAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListVariablesAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListVideosAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListVideosAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorListWidgetsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorListWidgetsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorMergeElementSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorMergeElementSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorMoveElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorMoveElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorNormalizeCampaignDetailPageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorNormalizeCampaignDetailPageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorNormalizeResponsiveValuesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorNormalizeResponsiveValuesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorNormalizeSectionSpacingRhythmAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorNormalizeSectionSpacingRhythmAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorPatchDataAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorPatchDataAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorRegeneratePageIdsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorRegeneratePageIdsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorRemoveElementStyleAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorRemoveElementStyleAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorReorderElementsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorReorderElementsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorReorderGlobalClassesAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorReorderGlobalClassesAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorReplaceImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorReplaceImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorReplaceTextAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorReplaceTextAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorReplaceUrlsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorReplaceUrlsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorResetNegativeMarginsSubtreeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorResetNegativeMarginsSubtreeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorRestoreTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorRestoreTemplateAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorRestoreVariableAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorRestoreVariableAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSaveAsTemplateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSaveAsTemplateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorScoreDistinctivenessAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorScoreDistinctivenessAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSearchImagesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSearchImagesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetActiveKitAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetActiveKitAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetAtomicSettingsAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetAtomicSettingsAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetDynamicTagAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetDynamicTagAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetElementStyleAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetElementStyleAbility.php'
+	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetGlobalClassPropsAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetGlobalClassPropsAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetPopupSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetPopupSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetTemplateConditionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetTemplateConditionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSetWidgetLinkAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSetWidgetLinkAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSideloadImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSideloadImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSuggestDesignFixesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSuggestDesignFixesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSwapWidgetTypeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSwapWidgetTypeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorSyncComponentVariantAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorSyncComponentVariantAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateContainerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateContainerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateCustomCodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateCustomCodeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateDataAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateDataAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateElementAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateElementAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateExperimentAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateExperimentAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateGlobalClassAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateGlobalClassAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateGlobalColorsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateGlobalColorsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateGlobalTypographyAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateGlobalTypographyAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateKitSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateKitSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateMaintenanceModeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateMaintenanceModeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdatePageSettingsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdatePageSettingsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateThemeBuilderConditionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateThemeBuilderConditionsAbility.php'
 	),
+	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateVariableAbility' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateVariableAbility.php'
+	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUpdateWidgetSettingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUpdateWidgetSettingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorUploadSvgIconAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorUploadSvgIconAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorWordCountAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorWordCountAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\ElementorZeroContainerPaddingSubtreeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/ElementorZeroContainerPaddingSubtreeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\AbstractElementorAddWidgetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/AbstractElementorAddWidgetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAButtonAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAButtonAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddADividerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddADividerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAHeadingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAHeadingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAParagraphAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAParagraphAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddASvgAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddASvgAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAccordionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAccordionAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAlertAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAlertAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAnimatedHeadlineAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAnimatedHeadlineAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddAudioAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddAudioAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddBasicGalleryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddBasicGalleryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddBlockquoteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddBlockquoteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddButtonAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddButtonAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddCallToActionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddCallToActionAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddCodeHighlightAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddCodeHighlightAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddCounterAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddCounterAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddDividerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddDividerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddEButtonAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddEButtonAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddEDividerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddEDividerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddEHeadingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddEHeadingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddEImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddEImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddEParagraphAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddEParagraphAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddESvgAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddESvgAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddFlipBoxAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddFlipBoxAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddFormAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddFormAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddGalleryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddGalleryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddGoogleMapsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddGoogleMapsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddHeadingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddHeadingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddHtmlAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddHtmlAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddIconAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddIconAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddIconBoxAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddIconBoxAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddIconListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddIconListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddImageBoxAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddImageBoxAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddImageCarouselAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddImageCarouselAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddImageGalleryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddImageGalleryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddLoginAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddLoginAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddLottieAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddLottieAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddMediaCarouselAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddMediaCarouselAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddMenuAnchorAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddMenuAnchorAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddNavMenuAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddNavMenuAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddPaypalButtonAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddPaypalButtonAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddPortfolioAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddPortfolioAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddPostsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddPostsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddPriceListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddPriceListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddPriceTableAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddPriceTableAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddProgressAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddProgressAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddRatingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddRatingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddReadMoreAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddReadMoreAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddReviewsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddReviewsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddSearchFormAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddSearchFormAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddShareButtonsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddShareButtonsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddShortcodeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddShortcodeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddSlidesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddSlidesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddSocialIconsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddSocialIconsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddSoundCloudAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddSoundCloudAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddSpacerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddSpacerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddStarRatingAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddStarRatingAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTableOfContentsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTableOfContentsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTabsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTabsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTestimonialAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTestimonialAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTestimonialCarouselAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTestimonialCarouselAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTextEditorAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTextEditorAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddTextPathAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddTextPathAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddToggleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddToggleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddVideoAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddVideoAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddVideoPlaylistAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddVideoPlaylistAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddWoocommerceProductAddToCartAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddWoocommerceProductAddToCartAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddWoocommerceProductImagesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddWoocommerceProductImagesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddWoocommerceProductMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddWoocommerceProductMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddWoocommerceProductTitleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddWoocommerceProductTitleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Elementor\\Widgets\\ElementorAddWoocommerceProductsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Elementor/Widgets/ElementorAddWoocommerceProductsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Ilj\\IljFindOrphansAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Ilj/IljFindOrphansAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Ilj\\IljGetKeywordsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Ilj/IljGetKeywordsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Ilj\\IljInspectIndexAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Ilj/IljInspectIndexAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Ilj\\IljSetKeywordsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Ilj/IljSetKeywordsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaBulkDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaBulkDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaFindUnusedAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaFindUnusedAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaGetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaGetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaSetFeaturedImageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaSetFeaturedImageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaUploadBase64Ability' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaUploadBase64Ability.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Media\\MediaUploadFromUrlAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Media/MediaUploadFromUrlAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusAddItemAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusAddItemAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusAssignLocationAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusAssignLocationAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusCreateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusCreateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusDeleteItemAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusDeleteItemAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusGetItemsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusGetItemsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Menus\\MenusUpdateItemAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Menus/MenusUpdateItemAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Meta\\MetaDeletePostMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Meta/MetaDeletePostMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Meta\\MetaGetPostMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Meta/MetaGetPostMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Meta\\MetaUpdatePostMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Meta/MetaUpdatePostMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Options\\OptionsGetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Options/OptionsGetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Options\\OptionsListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Options/OptionsListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Options\\OptionsUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Options/OptionsUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Pages\\PagesCreateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Pages/PagesCreateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Pages\\PagesGetTreeAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Pages/PagesGetTreeAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Pages\\PagesListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Pages/PagesListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Pages\\PagesUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Pages/PagesUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Perf\\PerfPurgeCacheAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Perf/PerfPurgeCacheAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Performance\\PerfFlushObjectCacheAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Performance/PerfFlushObjectCacheAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Performance\\PerfFlushRewriteRulesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Performance/PerfFlushRewriteRulesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Performance\\PerfGetCacheProviderAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Performance/PerfGetCacheProviderAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Performance\\PerfPurgeAllTransientsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Performance/PerfPurgeAllTransientsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsActivateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsActivateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsDeactivateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsDeactivateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsInstallDirectoryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsInstallDirectoryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsListUpdatesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsListUpdatesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Plugins\\PluginsSearchDirectoryAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Plugins/PluginsSearchDirectoryAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsCreateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsCreateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsDuplicateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsDuplicateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsGetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsGetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Posts\\PostsUpdateMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Posts/PostsUpdateMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathBulkGetMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathBulkGetMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathClear404LogsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathClear404LogsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathCreateRedirectionAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathCreateRedirectionAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathDelete404LogsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathDelete404LogsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathDeleteRedirectionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathDeleteRedirectionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathGetMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathGetMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathList404LogsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathList404LogsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathListRedirectionsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathListRedirectionsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\RankMath\\RankMathUpdateMetaAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/RankMath/RankMathUpdateMetaAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Security\\SecurityCountFailedLoginsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Security/SecurityCountFailedLoginsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Security\\SecurityListAppPasswordsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Security/SecurityListAppPasswordsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Seo\\SeoAuditOnpageAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Seo/SeoAuditOnpageAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Seo\\SeoGetHeadAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Seo/SeoGetHeadAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Shortcodes\\ShortcodesExistsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Shortcodes/ShortcodesExistsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Shortcodes\\ShortcodesListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Shortcodes/ShortcodesListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Shortcodes\\ShortcodesRenderAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Shortcodes/ShortcodesRenderAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\SiteInfoAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/SiteInfoAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\System\\SystemDebugLogAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/System/SystemDebugLogAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\System\\SystemGetTransientAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/System/SystemGetTransientAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\System\\SystemToggleDebugAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/System/SystemToggleDebugAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesAssignTermAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesAssignTermAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesAssociateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesAssociateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesDeleteTermAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesDeleteTermAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesListTermsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesListTermsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Taxonomies\\TaxonomiesUpdateTermAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Taxonomies/TaxonomiesUpdateTermAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Theme\\ThemeGetActiveAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Theme/ThemeGetActiveAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Theme\\ThemeGetCustomizerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Theme/ThemeGetCustomizerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Theme\\ThemeListInstalledAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Theme/ThemeListInstalledAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Theme\\ThemeSetCustomizerAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Theme/ThemeSetCustomizerAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Theme\\ThemeSwitchAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Theme/ThemeSwitchAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersAddRoleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersAddRoleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersCreateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersCreateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersDeleteAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersDeleteAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersGetAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersGetAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersListAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersListAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersListRolesAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersListRolesAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersRemoveRoleAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersRemoveRoleAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Users\\UsersUpdateAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Users/UsersUpdateAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Widgets\\WidgetsGetSidebarAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Widgets/WidgetsGetSidebarAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Widgets\\WidgetsListAvailableAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Widgets/WidgetsListAvailableAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\Widgets\\WidgetsListSidebarsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/Widgets/WidgetsListSidebarsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\WooCommerce\\WooListOrdersAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/WooCommerce/WooListOrdersAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\WooCommerce\\WooListProductsAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/WooCommerce/WooListProductsAbility.php'
 	),
 	'Tropk\\Mcp\\Abilities\\WooCommerce\\WooStatusAbility' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Abilities/WooCommerce/WooStatusAbility.php'
 	),
-	'Tropk\\Mcp\\Acf\\AngieAcfBridge' => array(
-		'version' => '1.0.0.0',
-		'path'    => $baseDir . '/src/Acf/AngieAcfBridge.php'
+	'Tropk\\Mcp\\Acf\\AcfRuntime' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Acf/AcfRuntime.php'
 	),
 	'Tropk\\Mcp\\Admin\\OnboardingPage' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Admin/OnboardingPage.php'
 	),
 	'Tropk\\Mcp\\Audit\\AuditLogger' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Audit/AuditLogger.php'
 	),
 	'Tropk\\Mcp\\Audit\\AuditTable' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Audit/AuditTable.php'
 	),
 	'Tropk\\Mcp\\Auth\\AuthorizationHeaderShim' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Auth/AuthorizationHeaderShim.php'
 	),
 	'Tropk\\Mcp\\Auth\\ConfusedDeputyGuard' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Auth/ConfusedDeputyGuard.php'
 	),
 	'Tropk\\Mcp\\Backup\\SnapshotManager' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Backup/SnapshotManager.php'
 	),
 	'Tropk\\Mcp\\Cache\\CachePurger' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Cache/CachePurger.php'
 	),
 	'Tropk\\Mcp\\Diagnostics\\DiagnosticEndpoint' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Diagnostics/DiagnosticEndpoint.php'
 	),
+	'Tropk\\Mcp\\Elementor\\AtomicProps' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Elementor/AtomicProps.php'
+	),
+	'Tropk\\Mcp\\Elementor\\ElementorMeta' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Elementor/ElementorMeta.php'
+	),
 	'Tropk\\Mcp\\Elementor\\ElementorPage' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Elementor/ElementorPage.php'
 	),
+	'Tropk\\Mcp\\Elementor\\ElementorRuntime' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/src/Elementor/ElementorRuntime.php'
+	),
 	'Tropk\\Mcp\\Extras\\Loader' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Extras/Loader.php'
 	),
 	'Tropk\\Mcp\\Ilj\\IljClient' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Ilj/IljClient.php'
 	),
 	'Tropk\\Mcp\\OAuth\\AuthorizationCodes' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/AuthorizationCodes.php'
 	),
 	'Tropk\\Mcp\\OAuth\\BearerAuthenticator' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/BearerAuthenticator.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Bootstrap' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Bootstrap.php'
 	),
 	'Tropk\\Mcp\\OAuth\\ChatGptCompat' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/ChatGptCompat.php'
 	),
 	'Tropk\\Mcp\\OAuth\\ClientRegistry' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/ClientRegistry.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Crypto' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Crypto.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\AuthorizationEndpoint' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/AuthorizationEndpoint.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\MetadataEndpoints' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/MetadataEndpoints.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\RegistrationEndpoint' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/RegistrationEndpoint.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\RevocationEndpoint' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/RevocationEndpoint.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\TokenEndpoint' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/TokenEndpoint.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Endpoints\\WellKnownStaticFiles' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Endpoints/WellKnownStaticFiles.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Scopes' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Scopes.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Tables' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Tables.php'
 	),
 	'Tropk\\Mcp\\OAuth\\Tokens' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/OAuth/Tokens.php'
 	),
 	'Tropk\\Mcp\\Plugin' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Plugin.php'
 	),
 	'Tropk\\Mcp\\RankMath\\RankMathClient' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/RankMath/RankMathClient.php'
 	),
 	'Tropk\\Mcp\\Security\\CorsHandler' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Security/CorsHandler.php'
 	),
 	'Tropk\\Mcp\\Security\\OriginGuard' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Security/OriginGuard.php'
 	),
 	'Tropk\\Mcp\\Security\\RateLimiter' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Security/RateLimiter.php'
 	),
 	'Tropk\\Mcp\\Seo\\PageAuditor' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Seo/PageAuditor.php'
 	),
 	'Tropk\\Mcp\\Server\\McpServerBootstrap' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Server/McpServerBootstrap.php'
 	),
 	'Tropk\\Mcp\\Support\\Capabilities' => array(
-		'version' => '1.0.0.0',
+		'version' => 'dev-main',
 		'path'    => $baseDir . '/src/Support/Capabilities.php'
 	),
+	'Tropk\\Mcp\\Tests\\Unit\\Acf\\AcfAbilitiesTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Acf/AcfAbilitiesTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Audit\\AuditLoggerRedactionTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Audit/AuditLoggerRedactionTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Cache\\CachePurgerTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Cache/CachePurgerTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Elementor\\AtomicPropsTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Elementor/AtomicPropsTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Elementor\\ElementorMetaTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Elementor/ElementorMetaTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Elementor\\ElementorPageTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Elementor/ElementorPageTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\OAuth\\CryptoTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/OAuth/CryptoTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\OAuth\\ScopesTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/OAuth/ScopesTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\RankMath\\RankMathClientTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/RankMath/RankMathClientTest.php'
+	),
+	'Tropk\\Mcp\\Tests\\Unit\\Security\\OriginGuardTest' => array(
+		'version' => 'dev-main',
+		'path'    => $baseDir . '/tests/Unit/Security/OriginGuardTest.php'
+	),
 	'Version_Loader' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-loader.php'
 	),
 	'Version_Selector' => array(
-		'version' => '5.0.18',
+		'version' => '5.0.20',
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/class-version-selector.php'
 	),
 	'WP\\MCP\\Abilities\\DiscoverAbilitiesAbility' => array(
@@ -1943,767 +2111,767 @@ return array(
 		'path'    => $vendorDir . '/wordpress/mcp-adapter/includes/Transport/Infrastructure/SessionManager.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\BooleanSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/BooleanSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitRequest.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitRequestFormParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitRequestFormParams.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitRequestFormParamsRequestedSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitRequestFormParamsRequestedSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitRequestURLParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitRequestURLParams.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitResult.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitationCompleteNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitationCompleteNotification.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\ElicitationCompleteNotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/ElicitationCompleteNotificationParams.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\LegacyTitledEnumSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/LegacyTitledEnumSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\NumberSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/NumberSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\StringSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/StringSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\TitledMultiSelectEnumSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/TitledMultiSelectEnumSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\TitledMultiSelectEnumSchemaItems' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/TitledMultiSelectEnumSchemaItems.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\TitledSingleSelectEnumSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/TitledSingleSelectEnumSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\UntitledMultiSelectEnumSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/UntitledMultiSelectEnumSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\UntitledMultiSelectEnumSchemaItems' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/UntitledMultiSelectEnumSchemaItems.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\DTO\\UntitledSingleSelectEnumSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/DTO/UntitledSingleSelectEnumSchema.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Factory\\ElicitRequestParamsFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Factory/ElicitRequestParamsFactory.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Factory\\EnumSchemaFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Factory/EnumSchemaFactory.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Factory\\MultiSelectEnumSchemaFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Factory/MultiSelectEnumSchemaFactory.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Factory\\PrimitiveSchemaDefinitionFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Factory/PrimitiveSchemaDefinitionFactory.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Factory\\SingleSelectEnumSchemaFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Factory/SingleSelectEnumSchemaFactory.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Union\\ElicitRequestParamsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Union/ElicitRequestParamsInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Union\\EnumSchemaInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Union/EnumSchemaInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Union\\MultiSelectEnumSchemaInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Union/MultiSelectEnumSchemaInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Union\\PrimitiveSchemaDefinitionInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Union/PrimitiveSchemaDefinitionInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Elicitation\\Union\\SingleSelectEnumSchemaInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Elicitation/Union/SingleSelectEnumSchemaInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\DTO\\ClientCapabilities' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/DTO/ClientCapabilities.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\DTO\\ClientCapabilitiesElicitation' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/DTO/ClientCapabilitiesElicitation.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\DTO\\ClientCapabilitiesRoots' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/DTO/ClientCapabilitiesRoots.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\DTO\\ClientCapabilitiesSampling' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/DTO/ClientCapabilitiesSampling.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\DTO\\ClientCapabilitiesTasks' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/DTO/ClientCapabilitiesTasks.php'
 	),
 	'WP\\McpSchema\\Client\\Lifecycle\\Union\\ClientResultInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Lifecycle/Union/ClientResultInterface.php'
 	),
 	'WP\\McpSchema\\Client\\Roots\\DTO\\ListRootsRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Roots/DTO/ListRootsRequest.php'
 	),
 	'WP\\McpSchema\\Client\\Roots\\DTO\\ListRootsResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Roots/DTO/ListRootsResult.php'
 	),
 	'WP\\McpSchema\\Client\\Roots\\DTO\\Root' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Roots/DTO/Root.php'
 	),
 	'WP\\McpSchema\\Client\\Roots\\DTO\\RootsListChangedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Roots/DTO/RootsListChangedNotification.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\CreateMessageRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/CreateMessageRequest.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\CreateMessageRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/CreateMessageRequestParams.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\CreateMessageResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/CreateMessageResult.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\ModelHint' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/ModelHint.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\ModelPreferences' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/ModelPreferences.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\SamplingMessage' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/SamplingMessage.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\ToolChoice' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/ToolChoice.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\ToolResultContent' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/ToolResultContent.php'
 	),
 	'WP\\McpSchema\\Client\\Sampling\\DTO\\ToolUseContent' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Sampling/DTO/ToolUseContent.php'
 	),
 	'WP\\McpSchema\\Client\\Tasks\\DTO\\CreateTaskResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Tasks/DTO/CreateTaskResult.php'
 	),
 	'WP\\McpSchema\\Client\\Tasks\\DTO\\RelatedTaskMetadata' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Tasks/DTO/RelatedTaskMetadata.php'
 	),
 	'WP\\McpSchema\\Client\\Tasks\\DTO\\Task' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Tasks/DTO/Task.php'
 	),
 	'WP\\McpSchema\\Client\\Tasks\\DTO\\TaskMetadata' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Tasks/DTO/TaskMetadata.php'
 	),
 	'WP\\McpSchema\\Client\\Tasks\\Enum\\TaskStatus' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Client/Tasks/Enum/TaskStatus.php'
 	),
 	'WP\\McpSchema\\Common\\AbstractDataTransferObject' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/AbstractDataTransferObject.php'
 	),
 	'WP\\McpSchema\\Common\\AbstractEnum' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/AbstractEnum.php'
 	),
 	'WP\\McpSchema\\Common\\Content\\DTO\\AudioContent' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Content/DTO/AudioContent.php'
 	),
 	'WP\\McpSchema\\Common\\Content\\DTO\\ImageContent' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Content/DTO/ImageContent.php'
 	),
 	'WP\\McpSchema\\Common\\Content\\DTO\\TextContent' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Content/DTO/TextContent.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\BaseMetadataInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/BaseMetadataInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\IconsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/IconsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\JSONRPCNotificationInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/JSONRPCNotificationInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\JSONRPCRequestInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/JSONRPCRequestInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\NotificationParamsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/NotificationParamsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\PaginatedRequestInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/PaginatedRequestInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\PaginatedResultInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/PaginatedResultInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\RequestParamsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/RequestParamsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\ResourceContentsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/ResourceContentsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\ResourceRequestParamsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/ResourceRequestParamsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\ResultInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/ResultInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\TaskAugmentedRequestParamsInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/TaskAugmentedRequestParamsInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\WithArrayTransformationInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/WithArrayTransformationInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Contracts\\WithJsonSchemaInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Contracts/WithJsonSchemaInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Core\\DTO\\Icon' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Core/DTO/Icon.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\Error' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/Error.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\JSONRPCErrorResponse' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/JSONRPCErrorResponse.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\JSONRPCNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/JSONRPCNotification.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\JSONRPCRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/JSONRPCRequest.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\JSONRPCResultResponse' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/JSONRPCResultResponse.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\Notification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/Notification.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\NotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/NotificationParams.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\Request' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/Request.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\RequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/RequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\DTO\\RequestParamsMeta' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/DTO/RequestParamsMeta.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\Union\\JSONRPCMessageInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/Union/JSONRPCMessageInterface.php'
 	),
 	'WP\\McpSchema\\Common\\JsonRpc\\Union\\JSONRPCResponseInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/JsonRpc/Union/JSONRPCResponseInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Lifecycle\\DTO\\Implementation' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Lifecycle/DTO/Implementation.php'
 	),
 	'WP\\McpSchema\\Common\\McpConstants' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/McpConstants.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\Annotations' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/Annotations.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\BaseMetadata' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/BaseMetadata.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\BlobResourceContents' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/BlobResourceContents.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\CancelledNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/CancelledNotification.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\CancelledNotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/CancelledNotificationParams.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\EmbeddedResource' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/EmbeddedResource.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\EmptyResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/EmptyResult.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\GetTaskPayloadRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/GetTaskPayloadRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\GetTaskPayloadRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/GetTaskPayloadRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\GetTaskPayloadResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/GetTaskPayloadResult.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\Icons' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/Icons.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\InitializeRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/InitializeRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\InitializeRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/InitializeRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\InitializeResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/InitializeResult.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\InitializedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/InitializedNotification.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\PaginatedRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/PaginatedRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\PaginatedRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/PaginatedRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\PaginatedResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/PaginatedResult.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\PingRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/PingRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\ProgressNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/ProgressNotification.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\ProgressNotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/ProgressNotificationParams.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\Result' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/Result.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\TextResourceContents' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/TextResourceContents.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\DTO\\URLElicitationRequiredError' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/DTO/URLElicitationRequiredError.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Enum\\Role' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Enum/Role.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Factory\\ClientNotificationFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Factory/ClientNotificationFactory.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Factory\\ClientRequestFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Factory/ClientRequestFactory.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Factory\\ContentBlockFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Factory/ContentBlockFactory.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Factory\\SamplingMessageContentBlockFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Factory/SamplingMessageContentBlockFactory.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Factory\\ServerRequestFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Factory/ServerRequestFactory.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Union\\ClientNotificationInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Union/ClientNotificationInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Union\\ClientRequestInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Union/ClientRequestInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Union\\ContentBlockInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Union/ContentBlockInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Union\\SamplingMessageContentBlockInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Union/SamplingMessageContentBlockInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Protocol\\Union\\ServerRequestInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Protocol/Union/ServerRequestInterface.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\CancelTaskRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/CancelTaskRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\CancelTaskRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/CancelTaskRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\CancelTaskResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/CancelTaskResult.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\GetTaskRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/GetTaskRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\GetTaskRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/GetTaskRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\GetTaskResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/GetTaskResult.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\ListTasksRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/ListTasksRequest.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\ListTasksResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/ListTasksResult.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\TaskAugmentedRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/TaskAugmentedRequestParams.php'
 	),
 	'WP\\McpSchema\\Common\\Tasks\\DTO\\TaskStatusNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Tasks/DTO/TaskStatusNotification.php'
 	),
 	'WP\\McpSchema\\Common\\Traits\\ValidatesRequiredFields' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Common/Traits/ValidatesRequiredFields.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteRequestParamsArgument' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteRequestParamsArgument.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteRequestParamsContext' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteRequestParamsContext.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteResult.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\CompleteResultCompletion' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/CompleteResultCompletion.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\PromptReference' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/PromptReference.php'
 	),
 	'WP\\McpSchema\\Server\\Core\\DTO\\ResourceTemplateReference' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Core/DTO/ResourceTemplateReference.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\DTO\\ServerCapabilities' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/DTO/ServerCapabilities.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\DTO\\ServerCapabilitiesPrompts' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/DTO/ServerCapabilitiesPrompts.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\DTO\\ServerCapabilitiesResources' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/DTO/ServerCapabilitiesResources.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\DTO\\ServerCapabilitiesTasks' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/DTO/ServerCapabilitiesTasks.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\DTO\\ServerCapabilitiesTools' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/DTO/ServerCapabilitiesTools.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\Factory\\ServerNotificationFactory' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/Factory/ServerNotificationFactory.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\Union\\ServerNotificationInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/Union/ServerNotificationInterface.php'
 	),
 	'WP\\McpSchema\\Server\\Lifecycle\\Union\\ServerResultInterface' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Lifecycle/Union/ServerResultInterface.php'
 	),
 	'WP\\McpSchema\\Server\\Logging\\DTO\\LoggingMessageNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Logging/DTO/LoggingMessageNotification.php'
 	),
 	'WP\\McpSchema\\Server\\Logging\\DTO\\LoggingMessageNotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Logging/DTO/LoggingMessageNotificationParams.php'
 	),
 	'WP\\McpSchema\\Server\\Logging\\DTO\\SetLevelRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Logging/DTO/SetLevelRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Logging\\DTO\\SetLevelRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Logging/DTO/SetLevelRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Logging\\Enum\\LoggingLevel' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Logging/Enum/LoggingLevel.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\GetPromptRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/GetPromptRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\GetPromptRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/GetPromptRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\GetPromptResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/GetPromptResult.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\ListPromptsRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/ListPromptsRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\ListPromptsResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/ListPromptsResult.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\Prompt' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/Prompt.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\PromptArgument' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/PromptArgument.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\PromptListChangedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/PromptListChangedNotification.php'
 	),
 	'WP\\McpSchema\\Server\\Prompts\\DTO\\PromptMessage' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Prompts/DTO/PromptMessage.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ListResourceTemplatesRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ListResourceTemplatesRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ListResourceTemplatesResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ListResourceTemplatesResult.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ListResourcesRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ListResourcesRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ListResourcesResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ListResourcesResult.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ReadResourceRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ReadResourceRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ReadResourceRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ReadResourceRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ReadResourceResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ReadResourceResult.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\Resource' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/Resource.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceContents' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceContents.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceLink' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceLink.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceListChangedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceListChangedNotification.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceTemplate' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceTemplate.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceUpdatedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceUpdatedNotification.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\ResourceUpdatedNotificationParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/ResourceUpdatedNotificationParams.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\SubscribeRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/SubscribeRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\SubscribeRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/SubscribeRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\UnsubscribeRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/UnsubscribeRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Resources\\DTO\\UnsubscribeRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Resources/DTO/UnsubscribeRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\CallToolRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/CallToolRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\CallToolRequestParams' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/CallToolRequestParams.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\CallToolResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/CallToolResult.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ListToolsRequest' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ListToolsRequest.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ListToolsResult' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ListToolsResult.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\Tool' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/Tool.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ToolAnnotations' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ToolAnnotations.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ToolExecution' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ToolExecution.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ToolInputSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ToolInputSchema.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ToolListChangedNotification' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ToolListChangedNotification.php'
 	),
 	'WP\\McpSchema\\Server\\Tools\\DTO\\ToolOutputSchema' => array(
-		'version' => '0.1.1.0',
+		'version' => '0.1.2.0',
 		'path'    => $vendorDir . '/wordpress/php-mcp-schema/src/Server/Tools/DTO/ToolOutputSchema.php'
 	),
 );

@@ -5,13 +5,14 @@ namespace Tropk\Mcp\Abilities\Elementor;
 
 use Tropk\Mcp\Abilities\AbstractAbility;
 use Tropk\Mcp\Backup\SnapshotManager;
+use Tropk\Mcp\Elementor\AtomicProps;
 use Tropk\Mcp\Elementor\ElementorPage;
 
 final class ElementorUpdateWidgetSettingAbility extends AbstractAbility {
 	public function slug(): string { return 'elementor-update-widget-setting'; }
 	protected function meta(): array { return [
 		'label' => __( 'Update an Elementor widget setting', 'mcp-for-wordpress' ),
-		'description' => __( 'Sets a single setting key on a widget by ID, then flushes CSS. Atomic widget settings are accepted verbatim but no schema validation is performed for them.', 'mcp-for-wordpress' ),
+		'description' => __( 'Sets a single setting key on a widget by ID, then flushes CSS. V4 atomic typed props (e.g. {"$$type":"classes","value":["mb-x"]}) are accepted either as a structured object or as a JSON string and stored as native objects.', 'mcp-for-wordpress' ),
 		'destructive' => true,
 	]; }
 	protected function input_schema(): array { return [
@@ -33,7 +34,10 @@ final class ElementorUpdateWidgetSettingAbility extends AbstractAbility {
 		}
 		$snap = ( new SnapshotManager() )->snapshot_post( $id, 'elementor-update-widget-setting' );
 		$page = ElementorPage::load( $id );
-		$ok   = $page->update_widget_setting( (string) $input['widget_id'], (string) $input['key'], $input['value'] );
+		// Heal typed atomic props delivered as JSON strings so they persist as
+		// native objects (issue #3, bug #2) rather than stringified JSON.
+		$value = AtomicProps::normalize_value( $input['value'] );
+		$ok   = $page->update_widget_setting( (string) $input['widget_id'], (string) $input['key'], $value );
 		if ( $ok ) $page->save();
 		return [ 'updated' => $ok, 'snapshot_id' => $snap['snapshot_id'] ];
 	}

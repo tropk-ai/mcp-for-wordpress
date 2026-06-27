@@ -19,16 +19,24 @@ final class RegistrationEndpoint {
 	}
 
 	public function register_route(): void {
-		register_rest_route(
-			'tropk-mcp/v1',
-			'/oauth/register',
-			[
-				'methods'             => 'POST',
-				'callback'            => [ $this, 'handle' ],
-				'permission_callback' => [ $this, 'allow' ],
-				'args'                => [],
-			]
-		);
+		$args = [
+			'methods'             => 'POST',
+			'callback'            => [ $this, 'handle' ],
+			'permission_callback' => [ $this, 'allow' ],
+			'args'                => [],
+		];
+
+		// Canonical RFC 7591 route.
+		register_rest_route( 'tropk-mcp/v1', '/oauth/register', $args );
+		// Alias for the OAuth-spec convention where clients construct the
+		// registration endpoint as `<authorization_server>/register`. The
+		// MCP TypeScript SDK (used by mcp-remote, Claude Desktop's MCP
+		// connector, Claude Code, and the @modelcontextprotocol/sdk family)
+		// falls back to this construction when /.well-known/oauth-
+		// authorization-server cannot be reached — which happens on hosts
+		// that reserve /.well-known/ for ACME SSL renewals (SiteGround,
+		// some Hostinger configurations). Both routes hit the same handler.
+		register_rest_route( 'tropk-mcp/v1', '/register', $args );
 	}
 
 	public function allow(): bool {

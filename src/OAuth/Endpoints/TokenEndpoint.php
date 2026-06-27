@@ -24,15 +24,16 @@ final class TokenEndpoint {
 	}
 
 	public function register_route(): void {
-		register_rest_route(
-			'tropk-mcp/v1',
-			'/oauth/token',
-			[
-				'methods'             => 'POST',
-				'callback'            => [ $this, 'handle' ],
-				'permission_callback' => '__return_true',
-			]
-		);
+		$args = [
+			'methods'             => 'POST',
+			'callback'            => [ $this, 'handle' ],
+			'permission_callback' => '__return_true',
+		];
+		register_rest_route( 'tropk-mcp/v1', '/oauth/token', $args );
+		// Alias matching the MCP SDK's default-endpoint fallback when
+		// .well-known/oauth-authorization-server is unreachable. See the
+		// matching comment in RegistrationEndpoint::register_route().
+		register_rest_route( 'tropk-mcp/v1', '/token', $args );
 	}
 
 	/**

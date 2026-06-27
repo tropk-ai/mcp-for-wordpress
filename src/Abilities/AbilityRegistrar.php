@@ -26,6 +26,19 @@ final class AbilityRegistrar {
 		Acf\AcfFieldGroupAbility::class,
 		Acf\AcfPostTypeAbility::class,
 		Acf\AcfTaxonomyAbility::class,
+		// Values (the actual data users store via ACF fields). Goes through
+		// get_field/update_field so image arrays, repeater rows, dates and
+		// relationships round-trip with the right shape.
+		Acf\AcfValueAbility::class,
+		// Repeater + flexible_content row-level operations.
+		Acf\AcfRowAbility::class,
+		// Pro: Options pages, ACF Blocks.
+		Acf\AcfOptionsPageAbility::class,
+		Acf\AcfBlockAbility::class,
+		// Introspection (field types, location rules, categories) and
+		// local-JSON sync (acf-json/ folder).
+		Acf\AcfIntrospectionAbility::class,
+		Acf\AcfLocalJsonAbility::class,
 		Ilj\IljGetKeywordsAbility::class,
 		Ilj\IljSetKeywordsAbility::class,
 		Ilj\IljInspectIndexAbility::class,
@@ -115,6 +128,39 @@ final class AbilityRegistrar {
 		Elementor\ElementorRegeneratePageIdsAbility::class,
 		Elementor\ElementorExportPageAbility::class,
 		Elementor\ElementorImportPageAbility::class,
+		// Elementor V4 atomic — design system (Global Classes + Variables).
+		// Backed by Elementor's Global_Classes_Repository and Variables
+		// Storage\Repository (loaded at runtime via ElementorRuntime). The
+		// abilities throw a clear error when V4 isn't available.
+		Elementor\ElementorListGlobalClassesAbility::class,
+		Elementor\ElementorGetGlobalClassAbility::class,
+		Elementor\ElementorCreateGlobalClassAbility::class,
+		Elementor\ElementorUpdateGlobalClassAbility::class,
+		Elementor\ElementorDeleteGlobalClassAbility::class,
+		Elementor\ElementorReorderGlobalClassesAbility::class,
+		Elementor\ElementorSetGlobalClassPropsAbility::class,
+		Elementor\ElementorApplyGlobalClassToElementAbility::class,
+		Elementor\ElementorListVariablesAbility::class,
+		Elementor\ElementorCreateVariableAbility::class,
+		Elementor\ElementorUpdateVariableAbility::class,
+		Elementor\ElementorDeleteVariableAbility::class,
+		Elementor\ElementorRestoreVariableAbility::class,
+		// Elementor V4 atomic — schema introspection, typed settings,
+		// local element styles. These lift the "atomic widgets are opaque"
+		// treatment so the model can author full V4 widget settings and
+		// per-element CSS without guessing schemas.
+		Elementor\ElementorGetAtomicSchemaAbility::class,
+		Elementor\ElementorGetStyleSchemaAbility::class,
+		Elementor\ElementorListPropTypesAbility::class,
+		Elementor\ElementorGetAtomicSettingsAbility::class,
+		Elementor\ElementorSetAtomicSettingsAbility::class,
+		Elementor\ElementorGetElementStylesAbility::class,
+		Elementor\ElementorSetElementStyleAbility::class,
+		Elementor\ElementorRemoveElementStyleAbility::class,
+		// V4 atomic element creation — generic builder that covers any
+		// registered atomic widget (free + Pro) without per-widget code,
+		// picking the right node shape (widget vs container) at runtime.
+		Elementor\ElementorAddAtomicElementAbility::class,
 		// Rank Math SEO
 		RankMath\RankMathGetMetaAbility::class,
 		RankMath\RankMathUpdateMetaAbility::class,
@@ -438,18 +484,6 @@ final class AbilityRegistrar {
 		Elementor\Widgets\ElementorAddAImageAbility::class,
 		Elementor\Widgets\ElementorAddAParagraphAbility::class,
 		Elementor\Widgets\ElementorAddASvgAbility::class,
-		// Divi 5 — one file per tool. Only Divi 5 (et_builder_version >= 5.0.0)
-		// is supported; Divi 4 pages are rejected with a clear error.
-		Divi\DiviListPagesAbility::class,
-		Divi\DiviGetPageOutlineAbility::class,
-		Divi\DiviGetPageStructureAbility::class,
-		Divi\DiviListModulesAbility::class,
-		Divi\DiviGetModuleAbility::class,
-		Divi\DiviUpdateModuleSettingAbility::class,
-		Divi\DiviDeleteModuleAbility::class,
-		Divi\DiviClonePageAbility::class,
-		Divi\DiviReplaceTextAbility::class,
-		Divi\DiviFlushCssAbility::class,
 	];
 
 	public function register(): void {
