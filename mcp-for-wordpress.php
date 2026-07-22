@@ -3,7 +3,7 @@
  * Plugin Name:       MCP for WP, Elementor and more by Tropk.ai
  * Plugin URI:        https://github.com/tropk-ai/mcp-for-wordpress
  * Description:       Turns any WordPress site into a Model Context Protocol (MCP) server for Claude.ai, ChatGPT and other AI assistants. Ships 500+ tools across content, Elementor, ACF, Rank Math, WooCommerce, Gutenberg / FSE, cron, performance, security and roles.
- * Version:           0.5.4
+ * Version:           0.5.5
  * Requires at least: 6.9
  * Requires PHP:      8.1
  * Author:            Tropk.ai
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'TROPK_MCP_VERSION', '0.5.4' );
+define( 'TROPK_MCP_VERSION', '0.5.5' );
 define( 'TROPK_MCP_FILE', __FILE__ );
 define( 'TROPK_MCP_DIR', plugin_dir_path( __FILE__ ) );
 define( 'TROPK_MCP_URL', plugin_dir_url( __FILE__ ) );

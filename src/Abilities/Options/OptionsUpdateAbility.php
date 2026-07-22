@@ -24,7 +24,7 @@ final class OptionsUpdateAbility extends AbstractAbility {
 		'required'             => [ 'key', 'value' ],
 		'properties'           => [
 			'key'   => [ 'type' => 'string', 'enum' => self::WRITABLE ],
-			'value' => [],
+			'value' => [ 'description' => 'New value for the option (any JSON type).' ],
 			'dry_run' => [ 'type' => 'boolean', 'default' => false ],
 		],
 	]; }

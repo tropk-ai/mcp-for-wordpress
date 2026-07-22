@@ -20,7 +20,7 @@ final class MetaUpdatePostMetaAbility extends AbstractAbility {
 		'properties'           => [
 			'post_id'  => [ 'type' => 'integer', 'minimum' => 1 ],
 			'meta_key' => [ 'type' => 'string', 'minLength' => 1 ],
-			'value'    => [],
+			'value'    => [ 'description' => 'New meta value (any JSON type).' ],
 		],
 	]; }
 	protected function output_schema(): array { return [ 'properties' => [ 'updated' => [ 'type' => 'boolean' ], 'snapshot_id' => [ 'type' => [ 'string', 'null' ] ] ] ]; }

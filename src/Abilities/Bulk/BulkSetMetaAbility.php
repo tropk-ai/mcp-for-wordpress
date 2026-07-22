@@ -5,7 +5,7 @@ use Tropk\Mcp\Abilities\AbstractAbility;
 final class BulkSetMetaAbility extends AbstractAbility {
 	public function slug(): string { return 'bulk-set-meta'; }
 	protected function meta(): array { return [ 'label' => __( 'Bulk-set a meta key on many posts', 'mcp-for-wordpress' ), 'description' => __( 'Sets the same meta_key/meta_value on a list of post IDs. Refuses _edit_* and other reserved keys.', 'mcp-for-wordpress' ), 'destructive' => true, 'idempotent' => true ]; }
-	protected function input_schema(): array { return [ 'additionalProperties' => false, 'required' => [ 'ids', 'meta_key', 'meta_value' ], 'properties' => [ 'ids' => [ 'type' => 'array', 'items' => [ 'type' => 'integer' ], 'maxItems' => 200 ], 'meta_key' => [ 'type' => 'string' ], 'meta_value' => [] ] ]; }
+	protected function input_schema(): array { return [ 'additionalProperties' => false, 'required' => [ 'ids', 'meta_key', 'meta_value' ], 'properties' => [ 'ids' => [ 'type' => 'array', 'items' => [ 'type' => 'integer' ], 'maxItems' => 200 ], 'meta_key' => [ 'type' => 'string' ], 'meta_value' => [ 'description' => 'New meta value (any JSON type).' ] ] ]; }
 	protected function output_schema(): array { return [ 'properties' => [ 'updated' => [ 'type' => 'integer' ], 'failed' => [ 'type' => 'integer' ] ] ]; }
 	public function authorize( array $input = [] ): bool { return current_user_can( 'mcp_invoke_destructive_tools' ); }
 	public function execute( array $input = [] ): array {

@@ -22,7 +22,7 @@ final class ElementorUpdateWidgetSettingAbility extends AbstractAbility {
 			'post_id'   => [ 'type' => 'integer', 'minimum' => 1 ],
 			'widget_id' => [ 'type' => 'string' ],
 			'key'       => [ 'type' => 'string' ],
-			'value'     => [],
+			'value'     => [ 'description' => 'New setting value (any JSON type).' ],
 		],
 	]; }
 	protected function output_schema(): array { return [ 'properties' => [ 'updated' => [ 'type' => 'boolean' ], 'snapshot_id' => [ 'type' => [ 'string', 'null' ] ] ] ]; }

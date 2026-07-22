@@ -20,7 +20,7 @@ final class OptionsGetAbility extends AbstractAbility {
 		'required'             => [ 'key' ],
 		'properties'           => [ 'key' => [ 'type' => 'string', 'minLength' => 1 ] ],
 	]; }
-	protected function output_schema(): array { return [ 'properties' => [ 'key' => [ 'type' => 'string' ], 'value' => [] ] ]; }
+	protected function output_schema(): array { return [ 'properties' => [ 'key' => [ 'type' => 'string' ], 'value' => [ 'description' => 'Current option value (any JSON type).' ] ] ]; }
 	public function authorize( array $input = [] ): bool { return current_user_can( 'manage_options' ); }
 	public function execute( array $input = [] ): array {
 		$key = (string) $input['key'];

@@ -202,7 +202,7 @@ add_action(
 					'required'   => [ 'key', 'value' ],
 					'properties' => [
 						'key'   => [ 'type' => 'string' ],
-						'value' => [],
+						'value' => [ 'description' => 'New theme mod value (any JSON type).' ],
 					],
 				],
 				'execute_callback'    => static function ( array $input ): array {

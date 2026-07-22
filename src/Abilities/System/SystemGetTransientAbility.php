@@ -17,7 +17,7 @@ final class SystemGetTransientAbility extends AbstractAbility {
 		'required'             => [ 'key' ],
 		'properties'           => [ 'key' => [ 'type' => 'string', 'minLength' => 1 ] ],
 	]; }
-	protected function output_schema(): array { return [ 'properties' => [ 'key' => [ 'type' => 'string' ], 'present' => [ 'type' => 'boolean' ], 'value' => [] ] ]; }
+	protected function output_schema(): array { return [ 'properties' => [ 'key' => [ 'type' => 'string' ], 'present' => [ 'type' => 'boolean' ], 'value' => [ 'description' => 'Transient value (any JSON type).' ] ] ]; }
 	public function authorize( array $input = [] ): bool { return current_user_can( 'manage_options' ); }
 	public function execute( array $input = [] ): array {
 		$val = get_transient( (string) $input['key'] );
